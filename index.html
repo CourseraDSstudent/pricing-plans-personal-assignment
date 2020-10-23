@@ -7,6 +7,10 @@
             box-sizing: border-box;
         }
 
+        body {
+            background-color: #232323;
+        }
+
         main {
             border: 2px solid red;
             width: 1240px;
@@ -20,7 +24,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-
+            background-color: #f9f9f9;
         }
 
         section {
@@ -28,9 +32,33 @@
             color: #b6e0f1;
         }
 
-        article {
-            background-color: aqua;
+
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 4em;
+            color: #363d45;
         }
+
+        article {
+            background-color: #ffffff;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #f1f1f1;
+        }
+
+        .subtitle {
+            width: 750px;
+            margin: auto;
+            color: #818588;
+            font-size: 1.1rem;
+            line-height: 1.5;
+
+        }
+
+        h1 {
+            /* font-size: 1.5; */
+        }
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,11 +69,12 @@
     <main>
         <header>
             <h1>Pricing Overview</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellendus quas qui et delectus eius optio
-                rem in fuga amet inventore illo, eum debitis numquam aliquam!</p>
+            <p class="subtitle">Maecenas lobortis ante vel neque sodales, et malesuada magna pellentesque. Morbi semper, 
+                mi et suscipit mollis, nibh arcu varius justo, sed finibus turpis mauris vitae metus 
+            </p>
         </header>
         <section>
-            <article>
+            <article class="start-bzt">
                 <h2>start boozt</h2>
                 <h3>$499<span> /mo</span></h3>
                 <h4>Perfect for lorem ipsum</h4>
@@ -53,7 +82,7 @@
                 <button>choose</button>
                 <h3>30 day free trial</h3>
             </article>
-            <article>
+            <article class="silver-bzt">
                 <h2>silver boozt</h2>
                 <h3>$899<span> /mo</span></h3>
                 <h4>Perfect for lorem ipsum</h4>
@@ -61,7 +90,7 @@
                 <button>choose</button>
                 <h3>30 day free trial</h3>
             </article>
-            <article>
+            <article class="gold-bzt">
                 <h2>gold boozt</h2>
                 <h3>$1499<span> /mo</span></h3>
                 <h4>Perfect for lorem ipsum</h4>
@@ -69,7 +98,7 @@
                 <button>choose</button>
                 <h3>30 day free trial</h3>
             </article>
-            <article>
+            <article class="diamond-bzt">
                 <h2>diamond boozt</h2>
                 <h3>$2399<span> /mo</span></h3>
                 <h4>Perfect for lorem ipsum</h4>
