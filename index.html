@@ -56,6 +56,9 @@
             min-height: 573px;
             border-radius: 5px;
         }
+        .silver-bzt {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
 
         hr {
             width: 87px;
@@ -79,21 +82,25 @@
         }
 
         h2 {
-            margin-top: 52px;
+            margin-top: 57px;
             margin-bottom: 28px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-variant: small-caps;
-            color: #253334
+            color:#475050;
         }
 
         h4 {
             font-size: 103%;
-            color: #2f393a;
+            color: #84888b;
+            font-family: 'Kanit', sans-serif;
+            font-weight: lighter;
+
         }
 
         .dollar {
             font-family: 'Quicksand', sans-serif;
             font-size: 2rem;
+            font-weight: bolder;
             vertical-align: super;
         }
 
@@ -136,6 +143,7 @@
         }
 
         button {
+            margin-top: -10px;
             background-color: #45cda9;
             color: white;
             font-variant-caps: small-caps;
@@ -146,17 +154,29 @@
         }
 
         .trial {
-            color: #354343;
+            margin-top: 12px;
+            color: #7b7b7b;
             font-variant-caps: small-caps;
             /* font-family: 'Source Sans Pro', sans-serif; */
             /* font-family: 'Lato', sans-serif; */
             /* font-family: 'Montserrat', sans-serif; */
             font-family: 'Roboto', sans-serif; 
+            letter-spacing: 0px;
+            word-spacing: -0.1em;
         }
 
         #chosen-button {
             background-color: #396bb4;
 
+        }
+
+        #chosen-card {
+            /* margin-top: -20px; den travaei mono to top border alla olh tin karta */
+            border: 4px solid;
+            border-top-color: #396bb4;
+            border-right-color: #f1f1f1;
+            border-bottom-color: #f1f1f1;
+            border-left-color: #f1f1f1;
         }
 
         .days-trial {
@@ -201,7 +221,7 @@
                 <button>choose</button>
                 <h3 class="trial"><span class="days-trial">30</span> day free trial</h3>
             </article>
-            <article class="silver-bzt">
+            <article id="chosen-card" class="silver-bzt">
                 <h2>silver boozt</h2>
                 <hr>
                 <h3 class="price"><span class="dollar">$</span>899<span class="month">/mth</span></h3>
